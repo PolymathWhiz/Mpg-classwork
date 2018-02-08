@@ -44,7 +44,7 @@
         tools:layout_editor_absoluteY="135dp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnCalc"
         android:layout_width="291dp"
         android:layout_height="61dp"
         android:text="Calculate"
@@ -52,10 +52,10 @@
         tools:layout_editor_absoluteY="263dp" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/txtAnswer"
         android:layout_width="302dp"
         android:layout_height="35dp"
-        android:text="TextView"
+        android:text="Answer shows here"
         tools:layout_editor_absoluteX="54dp"
         tools:layout_editor_absoluteY="404dp" />
 
