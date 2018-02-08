@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Miracle Anyanwu - 215CS02003252-->
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="anyanwu3252.ct_215cs02003252.MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No of miles driven: "
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="46dp" />
+
+    <EditText
+        android:id="@+id/milesDriven"
+        android:layout_width="230dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gallons of gas used: "
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="159dp" />
+
+    <EditText
+        android:id="@+id/gallonsUsed"
+        android:layout_width="228dp"
+        android:layout_height="55dp"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="135dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="291dp"
+        android:layout_height="61dp"
+        android:text="Calculate"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="263dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="302dp"
+        android:layout_height="35dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="404dp" />
+
+
+</android.support.constraint.ConstraintLayout>
