@@ -19,12 +19,12 @@
 
     <EditText
         android:id="@+id/milesDriven"
-        android:layout_width="230dp"
-        android:layout_height="45dp"
+        android:layout_width="214dp"
+        android:layout_height="41dp"
         android:ems="10"
         android:inputType="number"
-        tools:layout_editor_absoluteX="146dp"
-        tools:layout_editor_absoluteY="16dp" />
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="20dp" />
 
     <TextView
         android:id="@+id/textView2"
@@ -36,28 +36,30 @@
 
     <EditText
         android:id="@+id/gallonsUsed"
-        android:layout_width="228dp"
-        android:layout_height="55dp"
+        android:layout_width="212dp"
+        android:layout_height="54dp"
         android:ems="10"
         android:inputType="number"
-        tools:layout_editor_absoluteX="146dp"
-        tools:layout_editor_absoluteY="135dp" />
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="124dp" />
 
     <Button
         android:id="@+id/btnCalc"
         android:layout_width="291dp"
         android:layout_height="61dp"
+        android:background="@color/colorPrimaryDark"
         android:text="Calculate"
-        tools:layout_editor_absoluteX="58dp"
-        tools:layout_editor_absoluteY="263dp" />
+        android:textColor="#ffffff"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="225dp" />
 
     <TextView
         android:id="@+id/txtAnswer"
         android:layout_width="302dp"
         android:layout_height="35dp"
-        android:text="Answer shows here"
-        tools:layout_editor_absoluteX="54dp"
-        tools:layout_editor_absoluteY="404dp" />
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="348dp" />
 
 
 </android.support.constraint.ConstraintLayout>

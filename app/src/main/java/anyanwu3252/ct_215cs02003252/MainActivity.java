@@ -7,7 +7,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import org.w3c.dom.Text;
+// Created by Miracle Anyanwu (Polygod).
 
 public class MainActivity extends AppCompatActivity {
 
@@ -35,6 +35,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 finalAnswer = calculate(milesDriven, gallonsUsed);
+
+                // Displays the answer on the screen
                 txtAnswer.setText(String.valueOf(finalAnswer));
             }
         });
